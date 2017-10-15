@@ -6,7 +6,7 @@ import {
 import asyncComponent from 'lib/async-component'
 
 // 异步加载组件
-const asyncDemo = asyncComponent('pages/demo')
+const asyncDemo = asyncComponent(() => import('pages/demo'))
 
 const Routes = () => {
   return (
