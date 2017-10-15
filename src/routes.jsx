@@ -3,13 +3,15 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
+import asyncComponent from 'lib/async-component'
 
-// const asyncDemo = 
+// 异步加载组件
+const asyncDemo = asyncComponent('pages/demo')
 
 const Routes = () => {
   return (
     <Router>
-
+      <Route path="/demo" component={asyncDemo}></Route>
     </Router>
   )
 }

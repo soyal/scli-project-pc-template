@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class Demo extends Component {
   render() {
-    <div>
-      this is demo
-    </div>
+    return (
+      <div>this is a demo page </div>
+    )
   }
 }
 
