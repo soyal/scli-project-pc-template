@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import asyncComponent from 'lib/async-component'
+import asyncComponent from '@fs/async-component'
 
 // 异步加载组件
 const asyncDemo = asyncComponent(() => import('pages/demo'))

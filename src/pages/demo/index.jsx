@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
 
+import './index.less'
+
 class Demo extends Component {
   render() {
+    const env = process.env.REACT_APP_FS_ENV
     return (
-      <div>this is a demo page </div>
+      <div className="demo">
+        <p>123</p>
+        <div>{env}</div>
+      </div>
     )
   }
 }
