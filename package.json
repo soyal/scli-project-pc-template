@@ -1,9 +1,9 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
+  "name": "{{componentName}}",
+  "version": "{{version}}",
   "private": true,
-  "description": "description",
-  "author": "author",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "dependencies": {
     "@fs/async-component": "^1.0.2",
     "antd": "^2.13.6",
