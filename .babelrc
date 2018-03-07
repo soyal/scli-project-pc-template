@@ -1,0 +1,17 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "import",
+      { "libraryName": "antd", "libraryDirectory": "es", "style": true }
+    ],
+    [
+      "@fs/babel-plugin-import",
+      {
+        "libraryName": "@fs/cc-ui",
+        "style": "css"
+      }
+    ],
+    ["transform-decorators-legacy"]
+  ]
+}
